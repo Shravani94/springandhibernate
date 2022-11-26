@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spcorejars/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/web.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/test.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/remoting.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/persistJDO.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/persistCore.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/misc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/javaconfig.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/j2ee.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/ibatis.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/core.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/springjars/springjars/aop.zip"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/spring-jdbc-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tech/Downloads/mysql-connector-java-5.1.45-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
