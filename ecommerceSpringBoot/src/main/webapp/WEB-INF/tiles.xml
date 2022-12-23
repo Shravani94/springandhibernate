@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition"
+		template="/templates/layout.html">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/templates/Header.html" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/templates/footer.jsp" />
+	</definition>
+	<definition name="base1.definition"
+		template="/templates/Layout1.html">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/templates/Header.html" />
+		<put-attribute name="menu" value="/templates/menu.html" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/templates/footer.jsp" />
+	</definition>
+	<definition name="products" extends="base.definition">
+		<put-attribute name="body"
+			value="/templates/products.html" />
+	</definition>
+	<definition name="productPlp" extends="base1.definition">
+		<put-attribute name="body"
+			value="/templates/productPlp.html" />
+	</definition>
+	<definition name="productPdp" extends="base.definition">
+		<put-attribute name="body"
+			value="/templates/productPdp.html" />
+	</definition>
+	<definition name="OrderConfirmation"
+		extends="base1.definition">
+		<put-attribute name="body"
+			value="/templates/OrderConfirmation.html" />
+	</definition>
+	<definition name="oderList" extends="base.definition">
+		<put-attribute name="body"
+			value="/templates/OrderList.html" />
+	</definition>
+	<definition name="Login" extends="base.definition">
+		<put-attribute name="body" value="/templates/Login.html" />
+	</definition>
+	<definition name="Register" extends="base.definition">
+		<put-attribute name="body"
+			value="/templates/Register.html" />
+	</definition>
+	<definition name="cartList" extends="base.definition">
+		<put-attribute name="body"
+			value="/templates/CartList.html" />
+	</definition>
+</tiles-definitions>  

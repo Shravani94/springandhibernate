@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.div1 {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.div2 {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.img1 {
+	height: 30px;
+	width: 30px;
+}
+
+.div3 {
+	background-color: white;
+	padding: 50px;
+	text-align: center;
+	display: none;
+}
+
+.div2:hover .div3 {
+	position: fixed;
+	display: block;
+}
+.div5{
+margin-top:20px;
+margin-bottom: 20px;
+}
+.div6{
+padding-left:40px;
+padding-right:40px;
+float:left;
+}
+a{
+text-decoration: none;
+color:gray;
+}
+li{
+color:black;
+}
+
+</style>
+</head>
+ <div th:replace="Header :: header"></div>
+<body>
+<div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiaWV_ZrQzHpUItFipoZ_EDs9OV_5M3P4uVQNkeRuxAWFwdIvMp3RsJyy9Xl62U_EYBXI&usqp=CAU" alt="empty list">
+<h2> your list looks empty</h2>
+</div>
+
+</body>
+<footer><div th:replace="footer :: footer"></div></footer>
+
+</html>>

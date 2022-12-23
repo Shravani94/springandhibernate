@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Registration page</title>
+<style>
+.register1 {
+	background-color: white;
+	text-align: center;
+	height: 700px;
+	width: 1000px;
+	align-items: center;
+	margin-left: 300px;
+	border: 15px solid green
+}
+
+.err {
+	color: red;
+}
+
+label {
+	font-size: 23px;
+	font-family: monospace;
+}
+
+button {
+	background-color: blue;
+	color: white;
+	height: 60px;
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: blue
+}
+</style>
+</head>
+<body>
+	<div class='register1'>
+		<h1>
+			Register
+			</h2>
+			<h5>fill the details</h5>
+			<form th:action="@{/addcustomer}" method="post" th:object="${person}">
+
+				<label for="Fisrt name"><b>First Name :</b></label> <input
+					type="text" th:field="*{firstName}"><br>
+				<br> <span th:if="${#fields.hasErrors('firstName')}"
+					th:errors="*{firstName}" class='err'></span><br>
+				<br> <label for="last name"><b>Last Name :</b></label> <input
+					type="text" th:field="*{lastName}"><br>
+				<br> <span th:if="${#fields.hasErrors('lastName')}"
+					th:errors="*{lastName}" class='err'></span><br>
+				<br> <label for="user name"><b>User Name :</b></label> <input
+					type="text" th:field="*{userName}"><br>
+				<br> <span th:if="${#fields.hasErrors('userName')}"
+					th:errors="*{userName}" class='err'></span><br>
+				<br> <label for="password"><b>Password :</b></label> <input
+					type="text" th:field="*{password}"><br>
+				<br> <span th:if="${#fields.hasErrors('password')}"
+					th:errors="*{password}" class='err'></span><br>
+				<br>
+				<button type="submit" value="Register">Register</button>
+				<br>
+				<br> <span th:if="${Error != null}" class="err">this
+					user name is already available go with login</span><br>
+				<br> <a th:href="@{/Login}"> click here for Login....</a>
+			</form>
+	</div>
+</body>
+</html>
